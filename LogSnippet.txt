@@ -1,0 +1,367 @@
+[18:26:58.578][INFO]: CoT: Successfully identified and loaded ContentTweaker plugin contenttweaker:vanilla
+[18:26:58.600][INFO]: CoT: Successfully identified and loaded ContentTweaker plugin contenttweaker:forge
+[18:26:59.039][INFO]: Successfully identified and loaded plugin contenttweaker:core
+[18:26:59.045][INFO]: Successfully identified and loaded plugin jeitweaker:default
+[18:26:59.176][INFO]: Successfully identified and loaded plugin crafttweaker:builtin
+[18:26:59.181][INFO]: Successfully identified and loaded plugin crafttweaker:builtin_forge
+[18:26:59.199][INFO]: Successfully identified and loaded plugin immersiveengineering:ct_module
+[18:27:02.005][INFO]: The following mods have explicit CraftTweaker support through the default plugin:
+[18:27:02.009][INFO]: - 'contenttweaker' at version '1.0.0+13'
+[18:27:02.009][INFO]: - 'crafttweaker' at version '9.1.207'
+[18:27:02.009][INFO]: - 'farmersdelight' at version '1.18.2-1.2.1'
+[18:27:02.009][INFO]: - 'immersiveengineering' at version '1.18.2-8.4.0-161'
+[18:27:02.009][INFO]: - 'immersivepetroleum' at version '4.1.0-21'
+[18:27:02.009][INFO]: - 'jeitweaker' at version '3.0.0.9'
+[18:27:02.009][INFO]: - 'spoiled' at version '1.5.10'
+[18:27:02.965][INFO]: Started loading scripts for loader 'contenttweaker'
+[18:27:03.591][INFO]: Compiling and executing scripts
+[18:27:03.742][INFO]: Successfully initialized modules [crafttweaker, contenttweaker, expansions]
+[18:27:03.746][INFO]: Loading file 'newitem.zs' with priority 0
+[18:27:03.965][INFO]: Registering object of type minecraft:creative_tab[S]{net.minecraft.world.item.CreativeModeTab} with name minecraft:deceased_tab
+[18:27:03.978][INFO]: Registering object of type minecraft:item[R]{net.minecraft.world.item.Item} with name contenttweaker:incomplete_small_redstone_battery
+[18:27:04.026][INFO]: Registering object of type minecraft:item[R]{net.minecraft.world.item.Item} with name contenttweaker:incomplete_ender_pearl
+[18:27:04.032][INFO]: Registering object of type minecraft:item[R]{net.minecraft.world.item.Item} with name contenttweaker:polyethylene
+[18:27:04.032][INFO]: Registering object of type minecraft:item[R]{net.minecraft.world.item.Item} with name contenttweaker:high_carbon_steel_alloy
+[18:27:04.033][INFO]: Registering object of type minecraft:item[R]{net.minecraft.world.item.Item} with name contenttweaker:resistant_fiber
+[18:27:04.033][INFO]: Registering object of type minecraft:item[R]{net.minecraft.world.item.Item} with name contenttweaker:resistant_fabric
+[18:27:04.034][INFO]: Registering object of type minecraft:item[R]{net.minecraft.world.item.Item} with name contenttweaker:rubber
+[18:27:04.034][INFO]: Registering object of type minecraft:item[R]{net.minecraft.world.item.Item} with name contenttweaker:incomplete_electron_tube
+[18:27:04.035][INFO]: Registering object of type minecraft:item[R]{net.minecraft.world.item.Item} with name contenttweaker:incomplete_component_electronic
+[18:27:04.035][INFO]: Registering object of type minecraft:item[R]{net.minecraft.world.item.Item} with name contenttweaker:incomplete_component_electronic_adv
+[18:27:04.035][INFO]: Registering object of type minecraft:item[R]{net.minecraft.world.item.Item} with name contenttweaker:silica_dust
+[18:27:04.036][INFO]: Registering object of type minecraft:item[R]{net.minecraft.world.item.Item} with name contenttweaker:incomplete_basic_processor
+[18:27:04.037][INFO]: Registering object of type minecraft:item[R]{net.minecraft.world.item.Item} with name contenttweaker:incomplete_improved_processor
+[18:27:04.038][INFO]: Registering object of type minecraft:item[R]{net.minecraft.world.item.Item} with name contenttweaker:incomplete_advanced_processor
+[18:27:04.039][INFO]: Registering object of type minecraft:item[R]{net.minecraft.world.item.Item} with name contenttweaker:incomplete_1k_storage_part
+[18:27:04.040][INFO]: Registering object of type minecraft:item[R]{net.minecraft.world.item.Item} with name contenttweaker:incomplete_4k_storage_part
+[18:27:04.040][INFO]: Registering object of type minecraft:item[R]{net.minecraft.world.item.Item} with name contenttweaker:incomplete_16k_storage_part
+[18:27:04.041][INFO]: Registering object of type minecraft:item[R]{net.minecraft.world.item.Item} with name contenttweaker:incomplete_64k_storage_part
+[18:27:04.042][INFO]: Registering object of type minecraft:item[R]{net.minecraft.world.item.Item} with name contenttweaker:incomplete_64k_fluid_storage_part
+[18:27:04.042][INFO]: Registering object of type minecraft:item[R]{net.minecraft.world.item.Item} with name contenttweaker:incomplete_256k_fluid_storage_part
+[18:27:04.043][INFO]: Registering object of type minecraft:item[R]{net.minecraft.world.item.Item} with name contenttweaker:incomplete_1024k_fluid_storage_part
+[18:27:04.043][INFO]: Registering object of type minecraft:item[R]{net.minecraft.world.item.Item} with name contenttweaker:incomplete_4096k_fluid_storage_part
+[18:27:04.044][INFO]: Registering object of type minecraft:item[R]{net.minecraft.world.item.Item} with name contenttweaker:mold_basic_processor
+[18:27:04.045][INFO]: Registering object of type minecraft:item[R]{net.minecraft.world.item.Item} with name contenttweaker:mold_improved_processor
+[18:27:04.045][INFO]: Registering object of type minecraft:item[R]{net.minecraft.world.item.Item} with name contenttweaker:mold_advanced_processor
+[18:27:04.046][INFO]: Registering object of type minecraft:item[R]{net.minecraft.world.item.Item} with name contenttweaker:incomplete_bullet
+[18:27:04.046][INFO]: Registering object of type minecraft:item[R]{net.minecraft.world.item.Item} with name contenttweaker:mold_bullet_casing_small
+[18:27:04.046][INFO]: Registering object of type minecraft:item[R]{net.minecraft.world.item.Item} with name contenttweaker:mold_bullet_casing_short
+[18:27:04.047][INFO]: Registering object of type minecraft:item[R]{net.minecraft.world.item.Item} with name contenttweaker:mold_bullet_casing_medium
+[18:27:04.047][INFO]: Registering object of type minecraft:item[R]{net.minecraft.world.item.Item} with name contenttweaker:mold_bullet_casing_long
+[18:27:04.047][INFO]: Registering object of type minecraft:item[R]{net.minecraft.world.item.Item} with name contenttweaker:mold_bullet_casing_heavy
+[18:27:04.048][INFO]: Registering object of type minecraft:item[R]{net.minecraft.world.item.Item} with name contenttweaker:mold_bullet_casing_special
+[18:27:04.049][INFO]: Registering object of type minecraft:item[R]{net.minecraft.world.item.Item} with name contenttweaker:mold_bullet_casing_shell
+[18:27:04.049][INFO]: Registering object of type minecraft:item[R]{net.minecraft.world.item.Item} with name contenttweaker:incomplete_battery
+[18:27:04.050][INFO]: Registering object of type minecraft:item[R]{net.minecraft.world.item.Item} with name contenttweaker:incomplete_engine_piston
+[18:27:04.050][INFO]: Registering object of type minecraft:item[R]{net.minecraft.world.item.Item} with name contenttweaker:incomplete_engine_3_cylinder
+[18:27:04.050][INFO]: Registering object of type minecraft:item[R]{net.minecraft.world.item.Item} with name contenttweaker:incomplete_engine_6_cylinder
+[18:27:04.051][INFO]: Registering object of type minecraft:item[R]{net.minecraft.world.item.Item} with name contenttweaker:incomplete_engine_truck
+[18:27:04.051][INFO]: Registering object of type minecraft:item[R]{net.minecraft.world.item.Item} with name contenttweaker:incomplete_wheel
+[18:27:04.052][INFO]: Registering object of type minecraft:item[R]{net.minecraft.world.item.Item} with name contenttweaker:incomplete_big_wheel
+[18:27:04.052][INFO]: Registering object of type minecraft:item[R]{net.minecraft.world.item.Item} with name contenttweaker:incomplete_small_tank
+[18:27:04.053][INFO]: Registering object of type minecraft:item[R]{net.minecraft.world.item.Item} with name contenttweaker:incomplete_medium_tank
+[18:27:04.054][INFO]: Registering object of type minecraft:item[R]{net.minecraft.world.item.Item} with name contenttweaker:incomplete_large_tank
+[18:27:04.055][INFO]: Execution for loader 'contenttweaker' completed successfully
+[18:27:36.145][INFO]: Started loading scripts for loader 'initialize'
+[18:27:36.191][INFO]: Compiling and executing scripts
+[18:27:36.192][INFO]: Successfully initialized modules [crafttweaker, expansions]
+[18:27:36.208][INFO]: Execution for loader 'initialize' completed successfully
+[18:30:23.250][WARN]: Two subcommands with the same ID soundevents found for dump: this it not a critical error
+[18:30:23.252][WARN]: Two subcommands with the same ID materials found for dump: this it not a critical error
+[18:32:44.537][INFO]: Started loading scripts for loader 'tags'
+[18:32:44.555][INFO]: Compiling and executing scripts
+[18:32:44.567][INFO]: Successfully initialized modules [crafttweaker, expansions]
+[18:32:44.575][INFO]: Execution for loader 'tags' completed successfully
+[18:32:52.239][INFO]: Started loading scripts for loader 'crafttweaker'
+[18:32:52.263][INFO]: Compiling and executing scripts
+[18:32:52.725][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
+[18:32:52.725][INFO]: Loading file 'Removal.zs' with priority 0
+[18:32:52.728][ERROR]: Could not get fluid for <fluid:car:bio_diesel>. Fluid does not appear to exist!
+[18:32:52.729][ERROR]: Could not get fluid for <fluid:car:bio_diesel_flowing>. Fluid does not appear to exist!
+[18:32:52.730][ERROR]: Could not get fluid for <fluid:car:canola_oil>. Fluid does not appear to exist!
+[18:32:52.730][ERROR]: Could not get fluid for <fluid:car:canola_oil_flowing>. Fluid does not appear to exist!
+[18:32:52.731][ERROR]: Could not get fluid for <fluid:car:glycerin>. Fluid does not appear to exist!
+[18:32:52.731][ERROR]: Could not get fluid for <fluid:car:glycerin_flowing>. Fluid does not appear to exist!
+[18:32:52.731][ERROR]: Could not get fluid for <fluid:car:methanol>. Fluid does not appear to exist!
+[18:32:52.732][ERROR]: Could not get fluid for <fluid:car:methanol_flowing>. Fluid does not appear to exist!
+[18:32:52.732][ERROR]: Could not get fluid for <fluid:car:canola_methanol_mix>. Fluid does not appear to exist!
+[18:32:52.732][ERROR]: Could not get fluid for <fluid:car:canola_methanol_mix_flowing>. Fluid does not appear to exist!
+[18:32:52.732][ERROR]: Could not get fluid for <fluid:car:bio_diesel>. Fluid does not appear to exist!
+[18:32:52.732][ERROR]: Could not get fluid for <fluid:car:bio_diesel_flowing>. Fluid does not appear to exist!
+[18:32:52.732][ERROR]: Could not get fluid for <fluid:car:canola_oil>. Fluid does not appear to exist!
+[18:32:52.732][ERROR]: Could not get fluid for <fluid:car:canola_oil_flowing>. Fluid does not appear to exist!
+[18:32:52.732][ERROR]: Could not get fluid for <fluid:car:glycerin>. Fluid does not appear to exist!
+[18:32:52.733][ERROR]: Could not get fluid for <fluid:car:glycerin_flowing>. Fluid does not appear to exist!
+[18:32:52.733][ERROR]: Could not get fluid for <fluid:car:methanol>. Fluid does not appear to exist!
+[18:32:52.733][ERROR]: Could not get fluid for <fluid:car:methanol_flowing>. Fluid does not appear to exist!
+[18:32:52.733][ERROR]: Could not get fluid for <fluid:car:canola_methanol_mix>. Fluid does not appear to exist!
+[18:32:52.733][ERROR]: Could not get fluid for <fluid:car:canola_methanol_mix_flowing>. Fluid does not appear to exist!
+[18:32:52.738][ERROR]: Could not get item with name: <item:additionalguns:bullet_heavy>! Item does not appear to exist!
+[18:32:52.738][ERROR]: Could not get item with name: <item:additionalguns:bullet_long>! Item does not appear to exist!
+[18:32:52.738][ERROR]: Could not get item with name: <item:additionalguns:bullet_medium>! Item does not appear to exist!
+[18:32:52.738][ERROR]: Could not get item with name: <item:additionalguns:bullet_short>! Item does not appear to exist!
+[18:32:52.738][ERROR]: Could not get item with name: <item:additionalguns:bullet_small>! Item does not appear to exist!
+[18:32:52.738][ERROR]: Could not get item with name: <item:additionalguns:bullet_special>! Item does not appear to exist!
+[18:32:52.739][ERROR]: Could not get item with name: <item:additionalguns:casing_heavy>! Item does not appear to exist!
+[18:32:52.739][ERROR]: Could not get item with name: <item:additionalguns:casing_long>! Item does not appear to exist!
+[18:32:52.739][ERROR]: Could not get item with name: <item:additionalguns:casing_medium>! Item does not appear to exist!
+[18:32:52.739][ERROR]: Could not get item with name: <item:additionalguns:casing_short>! Item does not appear to exist!
+[18:32:52.739][ERROR]: Could not get item with name: <item:additionalguns:casing_small>! Item does not appear to exist!
+[18:32:52.739][ERROR]: Could not get item with name: <item:additionalguns:casing_special>! Item does not appear to exist!
+[18:32:52.740][ERROR]: Could not get item with name: <item:car:canola_oil_bucket>! Item does not appear to exist!
+[18:32:52.740][ERROR]: Could not get item with name: <item:car:methanol_bucket>! Item does not appear to exist!
+[18:32:52.740][ERROR]: Could not get item with name: <item:car:canola_methanol_mix_bucket>! Item does not appear to exist!
+[18:32:52.740][ERROR]: Could not get item with name: <item:car:glycerin_bucket>! Item does not appear to exist!
+[18:32:52.740][ERROR]: Could not get item with name: <item:car:bio_diesel_bucket>! Item does not appear to exist!
+[18:32:52.740][ERROR]: Could not get item with name: <item:car:iron_stick>! Item does not appear to exist!
+[18:32:52.740][ERROR]: Could not get item with name: <item:car:oilmill>! Item does not appear to exist!
+[18:32:52.740][ERROR]: Could not get item with name: <item:car:blastfurnace>! Item does not appear to exist!
+[18:32:52.740][ERROR]: Could not get item with name: <item:car:backmix_reactor>! Item does not appear to exist!
+[18:32:52.740][ERROR]: Could not get item with name: <item:car:generator>! Item does not appear to exist!
+[18:32:52.741][ERROR]: Could not get item with name: <item:car:split_tank>! Item does not appear to exist!
+[18:32:52.741][ERROR]: Could not get item with name: <item:car:tank>! Item does not appear to exist!
+[18:32:52.741][ERROR]: Could not get item with name: <item:car:cable>! Item does not appear to exist!
+[18:32:52.741][ERROR]: Could not get item with name: <item:car:fluid_extractor>! Item does not appear to exist!
+[18:32:52.741][ERROR]: Could not get item with name: <item:car:fluid_pipe>! Item does not appear to exist!
+[18:32:52.741][ERROR]: Could not get item with name: <item:car:dynamo>! Item does not appear to exist!
+[18:32:52.741][ERROR]: Could not get item with name: <item:car:crank>! Item does not appear to exist!
+[18:32:52.742][ERROR]: Could not get item with name: <item:car:canola>! Item does not appear to exist!
+[18:32:52.742][ERROR]: Could not get item with name: <item:car:canola_seeds>! Item does not appear to exist!
+[18:32:52.742][ERROR]: Could not get item with name: <item:car:canola_cake>! Item does not appear to exist!
+[18:32:52.742][ERROR]: Could not get item with name: <item:car:cable_insulator>! Item does not appear to exist!
+[18:32:52.742][ERROR]: Could not get item with name: <item:car:car_pressure_plate>! Item does not appear to exist!
+[18:32:52.742][ERROR]: Could not get item with name: <item:car:asphalt>! Item does not appear to exist!
+[18:32:52.742][ERROR]: Could not get item with name: <item:car:asphalt_slab>! Item does not appear to exist!
+[18:32:52.742][ERROR]: Could not get item with name: <item:car:asphalt_slope>! Item does not appear to exist!
+[18:32:52.742][ERROR]: Could not get item with name: <item:car:asphalt_slope_flat_upper>! Item does not appear to exist!
+[18:32:52.743][ERROR]: Could not get item with name: <item:car:asphalt_slope_flat_lower>! Item does not appear to exist!
+[18:32:52.743][INFO]: Loading file 'Spoil.zs' with priority 0
+[18:32:52.750][INFO]: Loading file 'apocalypse_arsenal_removal.zs' with priority 0
+[18:32:52.758][INFO]: Loading file 'armor.zs' with priority 0
+[18:32:52.758][ERROR]: Could not get item with name: <item:theoneprobe:iron_helmet_probe>! Item does not appear to exist!
+[18:32:52.759][ERROR]: Could not get item with name: <item:theoneprobe:iron_helmet_probe>! Item does not appear to exist!
+[18:32:52.759][ERROR]: Could not get item with name: <item:theoneprobe:gold_helmet_probe>! Item does not appear to exist!
+[18:32:52.759][ERROR]: Could not get item with name: <item:theoneprobe:gold_helmet_probe>! Item does not appear to exist!
+[18:32:52.759][ERROR]: Could not get item with name: <item:theoneprobe:diamond_helmet_probe>! Item does not appear to exist!
+[18:32:52.759][ERROR]: Could not get item with name: <item:theoneprobe:diamond_helmet_probe>! Item does not appear to exist!
+[18:32:52.759][ERROR]: Could not get item with name: <item:create:diving_helmet>! Item does not appear to exist!
+[18:32:52.759][ERROR]: Could not get item with name: <item:create:diving_helmet>! Item does not appear to exist!
+[18:32:52.905][INFO]: Loading file 'armorValue.zs' with priority 0
+[18:32:52.930][INFO]: Loading file 'armor_removal.zs' with priority 0
+[18:32:52.931][INFO]: Loading file 'arsenal_recipe.zs' with priority 0
+[18:32:52.931][ERROR]: Could not get item with name: <item:car:battery>! Item does not appear to exist!
+[18:32:52.933][ERROR]: Could not get item with name: <item:car:battery>! Item does not appear to exist!
+[18:32:52.938][ERROR]: Could not get item with name: <item:car:battery>! Item does not appear to exist!
+[18:32:52.947][ERROR]: Could not get item with name: <item:car:battery>! Item does not appear to exist!
+[18:32:52.966][INFO]: Loading file 'blocks.zs' with priority 0
+[18:32:52.967][ERROR]: Error validating BEP <block:create:sand_filter>
+[18:32:52.972][INFO]: Loading file 'cloche.zs' with priority 0
+[18:32:52.973][INFO]: Loading file 'cooler.zs' with priority 0
+[18:32:52.987][INFO]: Loading file 'firearms.zs' with priority 0
+[18:32:52.988][ERROR]: Could not get item with name: <item:additionalguns:casing_small>! Item does not appear to exist!
+[18:32:52.988][ERROR]: Could not get item with name: <item:additionalguns:casing_short>! Item does not appear to exist!
+[18:32:52.988][ERROR]: Could not get item with name: <item:additionalguns:casing_medium>! Item does not appear to exist!
+[18:32:52.989][ERROR]: Could not get item with name: <item:additionalguns:casing_long>! Item does not appear to exist!
+[18:32:52.989][ERROR]: Could not get item with name: <item:additionalguns:casing_heavy>! Item does not appear to exist!
+[18:32:52.990][ERROR]: Could not get item with name: <item:additionalguns:casing_special>! Item does not appear to exist!
+[18:32:52.990][ERROR]: Could not get item with name: <item:additionalguns:bullet_small>! Item does not appear to exist!
+[18:32:52.991][ERROR]: Could not get item with name: <item:additionalguns:casing_small>! Item does not appear to exist!
+[18:32:52.991][ERROR]: Could not get item with name: <item:additionalguns:bullet_small>! Item does not appear to exist!
+[18:32:52.991][ERROR]: Could not get item with name: <item:additionalguns:bullet_short>! Item does not appear to exist!
+[18:32:52.991][ERROR]: Could not get item with name: <item:additionalguns:casing_short>! Item does not appear to exist!
+[18:32:52.992][ERROR]: Could not get item with name: <item:additionalguns:bullet_short>! Item does not appear to exist!
+[18:32:52.992][ERROR]: Could not get item with name: <item:additionalguns:bullet_medium>! Item does not appear to exist!
+[18:32:52.992][ERROR]: Could not get item with name: <item:additionalguns:casing_medium>! Item does not appear to exist!
+[18:32:52.992][ERROR]: Could not get item with name: <item:additionalguns:bullet_medium>! Item does not appear to exist!
+[18:32:52.993][ERROR]: Could not get item with name: <item:additionalguns:bullet_heavy>! Item does not appear to exist!
+[18:32:52.993][ERROR]: Could not get item with name: <item:additionalguns:casing_heavy>! Item does not appear to exist!
+[18:32:52.993][ERROR]: Could not get item with name: <item:additionalguns:bullet_heavy>! Item does not appear to exist!
+[18:32:52.994][ERROR]: Could not get item with name: <item:additionalguns:bullet_special>! Item does not appear to exist!
+[18:32:52.994][ERROR]: Could not get item with name: <item:additionalguns:casing_special>! Item does not appear to exist!
+[18:32:52.994][ERROR]: Could not get item with name: <item:additionalguns:bullet_special>! Item does not appear to exist!
+[18:32:52.994][ERROR]: Could not get item with name: <item:additionalguns:bullet_long>! Item does not appear to exist!
+[18:32:52.994][ERROR]: Could not get item with name: <item:additionalguns:casing_long>! Item does not appear to exist!
+[18:32:52.995][ERROR]: Could not get item with name: <item:additionalguns:bullet_long>! Item does not appear to exist!
+[18:32:52.997][INFO]: Loading file 'immersiveposts.zs' with priority 0
+[18:32:52.998][INFO]: Loading file 'item.zs' with priority 0
+[18:32:52.998][ERROR]: Could not get item with name: <item:adfinders:metal_finder>! Item does not appear to exist!
+[18:32:52.998][ERROR]: Could not get item with name: <item:adfinders:metal_finder>! Item does not appear to exist!
+[18:32:52.998][ERROR]: Could not get item with name: <item:adfinders:mineral_finder>! Item does not appear to exist!
+[18:32:52.998][ERROR]: Could not get item with name: <item:adfinders:mineral_finder>! Item does not appear to exist!
+[18:32:52.998][ERROR]: Could not get item with name: <item:adfinders:gem_finder>! Item does not appear to exist!
+[18:32:52.998][ERROR]: Could not get item with name: <item:adfinders:gem_finder>! Item does not appear to exist!
+[18:32:52.998][ERROR]: Could not get item with name: <item:backpacked:backpack>! Item does not appear to exist!
+[18:32:52.999][ERROR]: Could not get item with name: <item:backpacked:backpack>! Item does not appear to exist!
+[18:32:53.016][ERROR]: Could not get item with name: <item:additionalguns:bullet_small>! Item does not appear to exist!
+[18:32:53.016][ERROR]: Could not get item with name: <item:additionalguns:bullet_short>! Item does not appear to exist!
+[18:32:53.016][ERROR]: Could not get item with name: <item:additionalguns:bullet_medium>! Item does not appear to exist!
+[18:32:53.017][ERROR]: Could not get item with name: <item:additionalguns:bullet_long>! Item does not appear to exist!
+[18:32:53.017][ERROR]: Could not get item with name: <item:additionalguns:bullet_heavy>! Item does not appear to exist!
+[18:32:53.017][ERROR]: Could not get item with name: <item:additionalguns:bullet_special>! Item does not appear to exist!
+[18:32:53.017][ERROR]: Could not get item with name: <item:additionalguns:casing_small>! Item does not appear to exist!
+[18:32:53.018][ERROR]: Could not get item with name: <item:additionalguns:casing_short>! Item does not appear to exist!
+[18:32:53.018][ERROR]: Could not get item with name: <item:additionalguns:casing_medium>! Item does not appear to exist!
+[18:32:53.019][ERROR]: Could not get item with name: <item:additionalguns:casing_long>! Item does not appear to exist!
+[18:32:53.019][ERROR]: Could not get item with name: <item:additionalguns:casing_heavy>! Item does not appear to exist!
+[18:32:53.019][ERROR]: Could not get item with name: <item:additionalguns:casing_special>! Item does not appear to exist!
+[18:32:53.020][INFO]: Loading file 'lights.zs' with priority 0
+[18:32:53.022][INFO]: Loading file 'material.zs' with priority 0
+[18:32:53.023][ERROR]: Could not get item with name: <item:mutationcraft_origins:bedridden_hide>! Item does not appear to exist!
+[18:32:53.024][ERROR]: Could not get item with name: <item:mutationcraft_origins:hidden_hide>! Item does not appear to exist!
+[18:32:53.028][INFO]: Loading file 'material_car.zs' with priority 0
+[18:32:53.028][ERROR]: Could not get item with name: <item:car:battery>! Item does not appear to exist!
+[18:32:53.029][ERROR]: Could not get item with name: <item:car:engine_piston>! Item does not appear to exist!
+[18:32:53.029][ERROR]: Could not get item with name: <item:car:engine_3_cylinder>! Item does not appear to exist!
+[18:32:53.030][ERROR]: Could not get item with name: <item:car:engine_piston>! Item does not appear to exist!
+[18:32:53.030][ERROR]: Could not get item with name: <item:car:engine_3_cylinder>! Item does not appear to exist!
+[18:32:53.030][ERROR]: Could not get item with name: <item:car:engine_6_cylinder>! Item does not appear to exist!
+[18:32:53.031][ERROR]: Could not get item with name: <item:car:engine_piston>! Item does not appear to exist!
+[18:32:53.031][ERROR]: Could not get item with name: <item:car:engine_6_cylinder>! Item does not appear to exist!
+[18:32:53.031][ERROR]: Could not get item with name: <item:car:engine_truck>! Item does not appear to exist!
+[18:32:53.031][ERROR]: Could not get item with name: <item:car:engine_piston>! Item does not appear to exist!
+[18:32:53.031][ERROR]: Could not get item with name: <item:car:wheel>! Item does not appear to exist!
+[18:32:53.031][ERROR]: Could not get item with name: <item:car:wheel>! Item does not appear to exist!
+[18:32:53.031][ERROR]: Could not get item with name: <item:car:big_wheel>! Item does not appear to exist!
+[18:32:53.032][ERROR]: Could not get item with name: <item:car:small_tank>! Item does not appear to exist!
+[18:32:53.032][ERROR]: Could not get item with name: <item:car:small_tank>! Item does not appear to exist!
+[18:32:53.032][ERROR]: Could not get item with name: <item:car:medium_tank>! Item does not appear to exist!
+[18:32:53.032][ERROR]: Could not get item with name: <item:car:medium_tank>! Item does not appear to exist!
+[18:32:53.032][ERROR]: Could not get item with name: <item:car:large_tank>! Item does not appear to exist!
+[18:32:53.032][ERROR]: Could not get item with name: <item:car:canister>! Item does not appear to exist!
+[18:32:53.033][ERROR]: Could not get item with name: <item:car:gas_station>! Item does not appear to exist!
+[18:32:53.033][ERROR]: Could not get item with name: <item:car:black_transporter_body>! Item does not appear to exist!
+[18:32:53.033][ERROR]: Could not get item with name: <item:car:white_transporter_body>! Item does not appear to exist!
+[18:32:53.034][ERROR]: Could not get item with name: <item:car:blue_transporter_body>! Item does not appear to exist!
+[18:32:53.034][ERROR]: Could not get item with name: <item:car:brown_transporter_body>! Item does not appear to exist!
+[18:32:53.034][ERROR]: Could not get item with name: <item:car:cyan_transporter_body>! Item does not appear to exist!
+[18:32:53.034][ERROR]: Could not get item with name: <item:car:gray_transporter_body>! Item does not appear to exist!
+[18:32:53.035][ERROR]: Could not get item with name: <item:car:green_transporter_body>! Item does not appear to exist!
+[18:32:53.035][ERROR]: Could not get item with name: <item:car:light_blue_transporter_body>! Item does not appear to exist!
+[18:32:53.035][ERROR]: Could not get item with name: <item:car:lime_transporter_body>! Item does not appear to exist!
+[18:32:53.035][ERROR]: Could not get item with name: <item:car:magenta_transporter_body>! Item does not appear to exist!
+[18:32:53.035][ERROR]: Could not get item with name: <item:car:orange_transporter_body>! Item does not appear to exist!
+[18:32:53.035][ERROR]: Could not get item with name: <item:car:pink_transporter_body>! Item does not appear to exist!
+[18:32:53.035][ERROR]: Could not get item with name: <item:car:purple_transporter_body>! Item does not appear to exist!
+[18:32:53.035][ERROR]: Could not get item with name: <item:car:red_transporter_body>! Item does not appear to exist!
+[18:32:53.036][ERROR]: Could not get item with name: <item:car:light_gray_transporter_body>! Item does not appear to exist!
+[18:32:53.036][ERROR]: Could not get item with name: <item:car:yellow_transporter_body>! Item does not appear to exist!
+[18:32:53.036][ERROR]: Could not get item with name: <item:car:white_suv_body>! Item does not appear to exist!
+[18:32:53.036][ERROR]: Could not get item with name: <item:car:black_suv_body>! Item does not appear to exist!
+[18:32:53.036][ERROR]: Could not get item with name: <item:car:blue_suv_body>! Item does not appear to exist!
+[18:32:53.037][ERROR]: Could not get item with name: <item:car:brown_suv_body>! Item does not appear to exist!
+[18:32:53.037][ERROR]: Could not get item with name: <item:car:cyan_suv_body>! Item does not appear to exist!
+[18:32:53.037][ERROR]: Could not get item with name: <item:car:gray_suv_body>! Item does not appear to exist!
+[18:32:53.037][ERROR]: Could not get item with name: <item:car:green_suv_body>! Item does not appear to exist!
+[18:32:53.038][ERROR]: Could not get item with name: <item:car:light_blue_suv_body>! Item does not appear to exist!
+[18:32:53.038][ERROR]: Could not get item with name: <item:car:lime_suv_body>! Item does not appear to exist!
+[18:32:53.038][ERROR]: Could not get item with name: <item:car:magenta_suv_body>! Item does not appear to exist!
+[18:32:53.038][ERROR]: Could not get item with name: <item:car:orange_suv_body>! Item does not appear to exist!
+[18:32:53.038][ERROR]: Could not get item with name: <item:car:pink_suv_body>! Item does not appear to exist!
+[18:32:53.039][ERROR]: Could not get item with name: <item:car:purple_suv_body>! Item does not appear to exist!
+[18:32:53.039][ERROR]: Could not get item with name: <item:car:red_suv_body>! Item does not appear to exist!
+[18:32:53.039][ERROR]: Could not get item with name: <item:car:light_gray_suv_body>! Item does not appear to exist!
+[18:32:53.039][ERROR]: Could not get item with name: <item:car:yellow_suv_body>! Item does not appear to exist!
+[18:32:53.039][ERROR]: Could not get item with name: <item:car:white_sport_body>! Item does not appear to exist!
+[18:32:53.040][ERROR]: Could not get item with name: <item:car:black_sport_body>! Item does not appear to exist!
+[18:32:53.040][ERROR]: Could not get item with name: <item:car:blue_sport_body>! Item does not appear to exist!
+[18:32:53.040][ERROR]: Could not get item with name: <item:car:brown_sport_body>! Item does not appear to exist!
+[18:32:53.040][ERROR]: Could not get item with name: <item:car:cyan_sport_body>! Item does not appear to exist!
+[18:32:53.040][ERROR]: Could not get item with name: <item:car:gray_sport_body>! Item does not appear to exist!
+[18:32:53.041][ERROR]: Could not get item with name: <item:car:green_sport_body>! Item does not appear to exist!
+[18:32:53.041][ERROR]: Could not get item with name: <item:car:light_blue_sport_body>! Item does not appear to exist!
+[18:32:53.041][ERROR]: Could not get item with name: <item:car:lime_sport_body>! Item does not appear to exist!
+[18:32:53.041][ERROR]: Could not get item with name: <item:car:magenta_sport_body>! Item does not appear to exist!
+[18:32:53.041][ERROR]: Could not get item with name: <item:car:orange_sport_body>! Item does not appear to exist!
+[18:32:53.041][ERROR]: Could not get item with name: <item:car:pink_sport_body>! Item does not appear to exist!
+[18:32:53.041][ERROR]: Could not get item with name: <item:car:purple_sport_body>! Item does not appear to exist!
+[18:32:53.042][ERROR]: Could not get item with name: <item:car:red_sport_body>! Item does not appear to exist!
+[18:32:53.042][ERROR]: Could not get item with name: <item:car:light_gray_sport_body>! Item does not appear to exist!
+[18:32:53.042][ERROR]: Could not get item with name: <item:car:yellow_sport_body>! Item does not appear to exist!
+[18:32:53.042][INFO]: Loading file 'material_car_containers.zs' with priority 0
+[18:32:53.042][ERROR]: Could not get item with name: <item:car:white_container>! Item does not appear to exist!
+[18:32:53.043][ERROR]: Could not get item with name: <item:car:black_container>! Item does not appear to exist!
+[18:32:53.043][ERROR]: Could not get item with name: <item:car:blue_container>! Item does not appear to exist!
+[18:32:53.043][ERROR]: Could not get item with name: <item:car:brown_container>! Item does not appear to exist!
+[18:32:53.043][ERROR]: Could not get item with name: <item:car:cyan_container>! Item does not appear to exist!
+[18:32:53.043][ERROR]: Could not get item with name: <item:car:gray_container>! Item does not appear to exist!
+[18:32:53.043][ERROR]: Could not get item with name: <item:car:green_container>! Item does not appear to exist!
+[18:32:53.043][ERROR]: Could not get item with name: <item:car:light_blue_container>! Item does not appear to exist!
+[18:32:53.043][ERROR]: Could not get item with name: <item:car:lime_container>! Item does not appear to exist!
+[18:32:53.044][ERROR]: Could not get item with name: <item:car:magenta_container>! Item does not appear to exist!
+[18:32:53.044][ERROR]: Could not get item with name: <item:car:orange_container>! Item does not appear to exist!
+[18:32:53.044][ERROR]: Could not get item with name: <item:car:pink_container>! Item does not appear to exist!
+[18:32:53.044][ERROR]: Could not get item with name: <item:car:purple_container>! Item does not appear to exist!
+[18:32:53.044][ERROR]: Could not get item with name: <item:car:red_container>! Item does not appear to exist!
+[18:32:53.044][ERROR]: Could not get item with name: <item:car:light_gray_container>! Item does not appear to exist!
+[18:32:53.044][ERROR]: Could not get item with name: <item:car:yellow_container>! Item does not appear to exist!
+[18:32:53.044][ERROR]: Could not get item with name: <item:car:white_tank_container>! Item does not appear to exist!
+[18:32:53.045][ERROR]: Could not get item with name: <item:car:black_tank_container>! Item does not appear to exist!
+[18:32:53.045][ERROR]: Could not get item with name: <item:car:blue_tank_container>! Item does not appear to exist!
+[18:32:53.045][ERROR]: Could not get item with name: <item:car:brown_tank_container>! Item does not appear to exist!
+[18:32:53.046][ERROR]: Could not get item with name: <item:car:cyan_tank_container>! Item does not appear to exist!
+[18:32:53.046][ERROR]: Could not get item with name: <item:car:gray_tank_container>! Item does not appear to exist!
+[18:32:53.046][ERROR]: Could not get item with name: <item:car:green_tank_container>! Item does not appear to exist!
+[18:32:53.046][ERROR]: Could not get item with name: <item:car:light_blue_tank_container>! Item does not appear to exist!
+[18:32:53.046][ERROR]: Could not get item with name: <item:car:lime_tank_container>! Item does not appear to exist!
+[18:32:53.046][ERROR]: Could not get item with name: <item:car:magenta_tank_container>! Item does not appear to exist!
+[18:32:53.047][ERROR]: Could not get item with name: <item:car:orange_tank_container>! Item does not appear to exist!
+[18:32:53.047][ERROR]: Could not get item with name: <item:car:pink_tank_container>! Item does not appear to exist!
+[18:32:53.047][ERROR]: Could not get item with name: <item:car:purple_tank_container>! Item does not appear to exist!
+[18:32:53.047][ERROR]: Could not get item with name: <item:car:red_tank_container>! Item does not appear to exist!
+[18:32:53.047][ERROR]: Could not get item with name: <item:car:light_gray_tank_container>! Item does not appear to exist!
+[18:32:53.047][ERROR]: Could not get item with name: <item:car:yellow_tank_container>! Item does not appear to exist!
+[18:32:53.047][INFO]: Loading file 'material_ore.zs' with priority 0
+[18:32:53.050][ERROR]: Could not get item with name: <item:create:crushed_copper_ore>! Item does not appear to exist!
+[18:32:53.051][ERROR]: Could not get item with name: <item:create:crushed_copper_ore>! Item does not appear to exist!
+[18:32:53.051][ERROR]: Could not get item with name: <item:create:crushed_copper_ore>! Item does not appear to exist!
+[18:32:53.051][ERROR]: Could not get item with name: <item:create:crushed_copper_ore>! Item does not appear to exist!
+[18:32:53.051][ERROR]: Could not get item with name: <item:create:crushed_copper_ore>! Item does not appear to exist!
+[18:32:53.051][ERROR]: Could not get item with name: <item:create:crushed_copper_ore>! Item does not appear to exist!
+[18:32:53.051][ERROR]: Could not get item with name: <item:create:crushed_copper_ore>! Item does not appear to exist!
+[18:32:53.051][ERROR]: Could not get item with name: <item:create:crushed_iron_ore>! Item does not appear to exist!
+[18:32:53.052][ERROR]: Could not get item with name: <item:create:crushed_iron_ore>! Item does not appear to exist!
+[18:32:53.052][ERROR]: Could not get item with name: <item:create:crushed_iron_ore>! Item does not appear to exist!
+[18:32:53.052][ERROR]: Could not get item with name: <item:create:crushed_gold_ore>! Item does not appear to exist!
+[18:32:53.052][ERROR]: Could not get item with name: <item:create:crushed_gold_ore>! Item does not appear to exist!
+[18:32:53.052][ERROR]: Could not get item with name: <item:create:crushed_gold_ore>! Item does not appear to exist!
+[18:32:53.052][ERROR]: Could not get item with name: <item:create:crushed_zinc_ore>! Item does not appear to exist!
+[18:32:53.052][ERROR]: Could not get item with name: <item:create:crushed_zinc_ore>! Item does not appear to exist!
+[18:32:53.052][ERROR]: Could not get item with name: <item:create:crushed_zinc_ore>! Item does not appear to exist!
+[18:32:53.053][ERROR]: Could not get item with name: <item:create:crushed_silver_ore>! Item does not appear to exist!
+[18:32:53.053][ERROR]: Could not get item with name: <item:create:crushed_silver_ore>! Item does not appear to exist!
+[18:32:53.053][ERROR]: Could not get item with name: <item:create:crushed_silver_ore>! Item does not appear to exist!
+[18:32:53.053][ERROR]: Could not get item with name: <item:create:crushed_lead_ore>! Item does not appear to exist!
+[18:32:53.053][ERROR]: Could not get item with name: <item:create:crushed_lead_ore>! Item does not appear to exist!
+[18:32:53.053][ERROR]: Could not get item with name: <item:create:crushed_lead_ore>! Item does not appear to exist!
+[18:32:53.053][ERROR]: Could not get item with name: <item:create:crushed_aluminum_ore>! Item does not appear to exist!
+[18:32:53.053][ERROR]: Could not get item with name: <item:create:crushed_aluminum_ore>! Item does not appear to exist!
+[18:32:53.054][ERROR]: Could not get item with name: <item:create:crushed_aluminum_ore>! Item does not appear to exist!
+[18:32:53.054][ERROR]: Could not get item with name: <item:create:crushed_aluminum_ore>! Item does not appear to exist!
+[18:32:53.054][ERROR]: Could not get item with name: <item:create:crushed_aluminum_ore>! Item does not appear to exist!
+[18:32:53.054][ERROR]: Could not get item with name: <item:create:crushed_uranium_ore>! Item does not appear to exist!
+[18:32:53.055][ERROR]: Could not get item with name: <item:create:crushed_uranium_ore>! Item does not appear to exist!
+[18:32:53.055][ERROR]: Could not get item with name: <item:create:crushed_uranium_ore>! Item does not appear to exist!
+[18:32:53.055][ERROR]: Could not get item with name: <item:create:crushed_nickel_ore>! Item does not appear to exist!
+[18:32:53.055][ERROR]: Could not get item with name: <item:create:crushed_nickel_ore>! Item does not appear to exist!
+[18:32:53.055][ERROR]: Could not get item with name: <item:create:crushed_nickel_ore>! Item does not appear to exist!
+[18:32:53.057][ERROR]: Could not get item with name: <item:create:crushed_zinc_ore>! Item does not appear to exist!
+[18:32:53.057][ERROR]: Could not get item with name: <item:create:crushed_zinc_ore>! Item does not appear to exist!
+[18:32:53.057][ERROR]: Could not get item with name: <item:create:crushed_zinc_ore>! Item does not appear to exist!
+[18:32:53.057][ERROR]: Could not get item with name: <item:create:crushed_zinc_ore>! Item does not appear to exist!
+[18:32:53.057][ERROR]: Could not get item with name: <item:create:crushed_zinc_ore>! Item does not appear to exist!
+[18:32:53.060][INFO]: Loading file 'mre.zs' with priority 0
+[18:32:53.063][INFO]: Loading file 'profession.zs' with priority 0
+[18:32:53.065][ERROR]: Could not get item with name: <item:additionalguns:bullet_short>! Item does not appear to exist!
+[18:32:53.066][ERROR]: Could not get item with name: <item:additionalguns:bullet_small>! Item does not appear to exist!
+[18:32:53.067][ERROR]: Could not get item with name: <item:additionalguns:m1911>! Item does not appear to exist!
+[18:32:53.067][ERROR]: Could not get item with name: <item:firstaid:bandage>! Item does not appear to exist!
+[18:32:53.067][ERROR]: Could not get item with name: <item:additionalguns:bullet_small>! Item does not appear to exist!
+[18:32:53.067][ERROR]: Could not get item with name: <item:additionalguns:bullet_short>! Item does not appear to exist!
+[18:32:53.067][ERROR]: Could not get item with name: <item:additionalguns:bullet_medium>! Item does not appear to exist!
+[18:32:53.067][ERROR]: Could not get item with name: <item:additionalguns:bullet_long>! Item does not appear to exist!
+[18:32:53.067][ERROR]: Could not get item with name: <item:additionalguns:bullet_heavy>! Item does not appear to exist!
+[18:32:53.067][ERROR]: Could not get item with name: <item:additionalguns:bullet_special>! Item does not appear to exist!
+[18:32:53.067][INFO]: Loading file 'refinedstorage.zs' with priority 0
+[18:32:53.075][INFO]: Loading file 'repair.zs' with priority 0
+[18:32:53.079][INFO]: Loading file 'simpleplanes.zs' with priority 0
+[18:32:53.087][INFO]: Loading file 'weaponValue.zs' with priority 0

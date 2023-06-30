@@ -1,0 +1,70 @@
+Add additional recipes for and Mo's guns bullets
+Add tags for materials
+change wondering villager trades for new bullet types
+remove mapper base recipes
+remove blaze burner in recipes
+add a way to obtain blaze rods
+replace nether wart in hell gunpowder
+replace netherite scrap in nitro dust
+find whats wrong with worldgen palette
+fix material.zs
+remove custom items
+fix conflict between files
+
+check kubejs for lost cities stuff
+replace hardcore torches:
+[30Jun2023 00:01:05.847] [Worker-Main178/ERROR] [lostcities/]: Error generating chunk -50,52: Error trying to get resource c70cities:building_residential4_floor1_palette_180!
+[30Jun2023 00:01:09.274] [Worker-Main182/ERROR] [lostcities/]: Error generating chunk -50,51: Error trying to get resource c70cities:building_residential4_floor1_palette_90!
+[30Jun2023 00:01:11.609] [Worker-Main179/ERROR] [lostcities/]: Error generating chunk -47,51: Error trying to get resource c70cities:building_residential3_floor1_palette_90!
+
+remove property facing from central kitchen block:
+[30Jun2023 00:01:11.816] [Worker-Main182/ERROR] [lostcities/]: Error generating chunk -45,51: Error trying to get resource c70cities:building_residential2_ground_palette_270!
+
+remove block type car:
+[30Jun2023 00:07:34.209] [Worker-Main199/ERROR] [lostcities/]: Error generating chunk -41,45: Error trying to get resource c70cities:building_gasstation1_ground_palette_90!
+[30Jun2023 00:07:37.194] [Worker-Main199/ERROR] [lostcities/]: Error generating chunk -63,47: Error trying to get resource c70cities:building_carservice1_ground_palette_270!
+
+[30Jun2023 00:07:25.519] [Worker-Main192/WARN] [net.minecraft.server.level.WorldGenRegion/]: Tried to access a block entity before it was created. MutableBlockPos{x=-756, y=73, z=779}
+
+mutationcraft assimulated piglin
+
+New Bullets:
+<item:scorchedguns:powder_and_ball>
+<item:scorchedguns:simple_bullet>
+<item:scorchedguns:shotbolt>
+<item:scorchedguns:volatile_scrap>
+<item:scorchedguns:encased_fire>
+<item:scorchedguns:rivet>
+<item:scorchedguns:flechette>
+<item:scorchedguns:flechette_round>
+<item:scorchedguns:ec_round>
+<item:scorchedguns:scorched_bullet>
+<item:scorchedguns:scorched_big_bullet>
+<item:scorchedguns:scorched_shell>
+<item:scorchedguns:hell_gunpowder>
+<item:scorchedguns:heavy_bullet>
+<item:scorchedguns:pig_round>
+<item:scorchedguns:heavy_pig_round>
+<item:scorchedguns:quartz_shell>
+<item:scorchedguns:osborne_slug>
+<item:scorchedguns:experimental_round>
+<item:scorchedguns:ethereal_bullet>
+<item:scorchedguns:ethereal_heavy_bullet>
+<item:scorchedguns:ethereal_shell>
+<item:scorchedguns:ethereal_ec_round>
+
+<item:moguns:762x51>
+<item:moguns:556x45>
+<item:moguns:garbage>
+<item:moguns:9x39>
+<item:moguns:9x19>
+<item:moguns:12_gauge>
+<item:moguns:slug>
+<item:moguns:45acp>
+<item:moguns:3006>
+<item:moguns:762x39>
+<item:moguns:musket_cartridge>
+<item:moguns:762x25>
+<item:moguns:x_mas_light>
+<item:moguns:taki>
+<item:moguns:flare>
