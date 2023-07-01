@@ -17,7 +17,7 @@ import crafttweaker.api.item.IItemStack;
 <tag:items:forge:corundum/block>.add(<item:quark:yellow_corundum>);
 <tag:items:forge:corundum/block>.add(<item:quark:waxed_yellow_corundum>);
 <tag:items:forge:corundum/cluster>.add(<item:quark:yellow_corundum_cluster>);
-
+nugget/
 <tag:items:forge:corundum/block>.add(<item:quark:violet_corundum>);
 <tag:items:forge:corundum/block>.add(<item:quark:waxed_violet_corundum>);
 <tag:items:forge:corundum/cluster>.add(<item:quark:violet_corundum_cluster>);
@@ -81,9 +81,9 @@ import crafttweaker.api.item.IItemStack;
 <recipetype:create:crushing>.removeByName("create:crushing/raw_silver_ore");
 <recipetype:create:crushing>.removeByName("create:crushing/silver_ore");
 
-<recipetype:create:crushing>.addRecipe("raw_silver_ore", [<item:create:crushed_silver_ore>, <item:create:crushed_silver_ore> % 25, <item:create:experience_nugget> % 75], <tag:items:forge:raw_materials/silver>, 250 );
-<recipetype:create:crushing>.addRecipe("silver_ore_block", [<item:create:crushed_silver_ore>, <item:create:crushed_silver_ore> % 50, <item:create:experience_nugget> % 75, <item:minecraft:cobblestone> % 12], <item:immersiveengineering:ore_silver>, 350 );
-<recipetype:create:crushing>.addRecipe("deepslate_silver_ore_block", [<item:create:crushed_silver_ore> * 2, <item:create:experience_nugget> % 75, <item:minecraft:cobbled_deepslate> % 12], <item:immersiveengineering:deepslate_ore_silver>, 450 );
+<recipetype:create:crushing>.addRecipe("raw_silver_ore", [<item:create:crushed_raw_silver>, <item:create:crushed_raw_silver> % 25, <item:create:experience_nugget> % 75], <tag:items:forge:raw_materials/silver>, 250 );
+<recipetype:create:crushing>.addRecipe("silver_ore_block", [<item:create:crushed_raw_silver>, <item:create:crushed_raw_silver> % 50, <item:create:experience_nugget> % 75, <item:minecraft:cobblestone> % 12], <item:immersiveengineering:ore_silver>, 350 );
+<recipetype:create:crushing>.addRecipe("deepslate_silver_ore_block", [<item:create:crushed_raw_silver> * 2, <item:create:experience_nugget> % 75, <item:minecraft:cobbled_deepslate> % 12], <item:immersiveengineering:deepslate_ore_silver>, 450 );
 
 // Lead
 <recipetype:create:crushing>.removeByName("create:crushing/raw_lead_ore");

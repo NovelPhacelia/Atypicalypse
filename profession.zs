@@ -110,8 +110,8 @@ villagerTrades.removeTradesSelling(<profession:minecraft:weaponsmith>, 2, <item:
 villagerTrades.addTrade(<profession:minecraft:weaponsmith>, 2, 2, <item:minecraft:gunpowder> * 4, 32, 2, 0.05);
 
 // Tier 3
-villagerTrades.addTrade(<profession:minecraft:weaponsmith>, 3, 6, <item:additionalguns:bullet_short> * 10, 6, 10, 0.05);
-villagerTrades.addTrade(<profession:minecraft:weaponsmith>, 3, 6, <item:additionalguns:bullet_small> * 10, 6, 10, 0.05);
+//villagerTrades.addTrade(<profession:minecraft:weaponsmith>, 3, 6, <item:additionalguns:bullet_short> * 10, 6, 10, 0.05);
+//villagerTrades.addTrade(<profession:minecraft:weaponsmith>, 3, 6, <item:additionalguns:bullet_small> * 10, 6, 10, 0.05);
 
 // Tier 4
 villagerTrades.removeTradesSelling(<profession:minecraft:weaponsmith>, 4, <item:minecraft:diamond_axe>);
@@ -127,7 +127,7 @@ villagerTrades.addTrade(<profession:minecraft:weaponsmith>, 5, 34, <item:arsenal
 villagerTrades.addTrade(<profession:minecraft:weaponsmith>, 5, 60, <item:arsenals_of_the_apocalypse:tatical_mace>, 3, 20, 0.2);
 villagerTrades.addTrade(<profession:minecraft:weaponsmith>, 5, 3, <item:arsenals_of_the_apocalypse:shuriken>, 64, 5, 0.2);
 villagerTrades.addTrade(<profession:minecraft:weaponsmith>, 5, 15, <item:arsenals_of_the_apocalypse:combat_knife>, 3, 20, 0.2);
-villagerTrades.addTrade(<profession:minecraft:weaponsmith>, 5, 64, <item:additionalguns:m1911>, 2, 40, 0.2);
+//villagerTrades.addTrade(<profession:minecraft:weaponsmith>, 5, 64, <item:additionalguns:m1911>, 2, 40, 0.2);
 
 // Wandering Trader
 villagerTrades.removeAllWanderingTrades(1);
@@ -137,7 +137,6 @@ villagerTrades.removeAllWanderingTrades(2);
 villagerTrades.addWanderingTrade(1, 1, <item:minecraft:gunpowder> * 2, 64, 10);
 villagerTrades.addWanderingTrade(1, 1, <item:farmersdelight:mutton_wrap> * 2, 8, 10);
 villagerTrades.addWanderingTrade(1, 1, <item:farmersdelight:bacon_sandwich> * 2, 8, 10);
-villagerTrades.addWanderingTrade(1, 1, <item:firstaid:bandage> * 3, 8, 10);
 villagerTrades.addWanderingTrade(1, 3, <item:immersiveengineering:stick_steel>, 3, 10);
 villagerTrades.addWanderingTrade(1, 4, <item:immersiveengineering:ingot_aluminum>, 3, 10);
 villagerTrades.addWanderingTrade(1, 3, <item:immersiveengineering:ingot_steel>, 3, 10);

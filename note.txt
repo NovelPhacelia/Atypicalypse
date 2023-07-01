@@ -10,6 +10,9 @@ find whats wrong with worldgen palette
 fix material.zs
 remove custom items
 fix conflict between files
+add food to spoiled
+add cabinets to spoiled
+add items to repair
 
 check kubejs for lost cities stuff
 replace hardcore torches:

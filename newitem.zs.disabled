@@ -182,4 +182,63 @@ val mold_bullet_casing_shell = <factory:item>.typed<Basic>()
     .rarity(<constant:minecraft:item/rarity:common>)
     .build("mold_bullet_casing_shell");
 
-//cgm?
+// Cars
+val incomplete_battery = <factory:item>.typed<Basic>()
+    .tab(deceasedTab)
+	.durability(10)
+    .rarity(<constant:minecraft:item/rarity:common>)
+    .build("incomplete_battery");
+
+val incomplete_engine_piston = <factory:item>.typed<Basic>()
+    .tab(deceasedTab)
+	.durability(4)
+    .rarity(<constant:minecraft:item/rarity:common>)
+    .build("incomplete_engine_piston");
+
+val incomplete_engine_3_cylinder = <factory:item>.typed<Basic>()
+    .tab(deceasedTab)
+	.durability(18)
+    .rarity(<constant:minecraft:item/rarity:common>)
+    .build("incomplete_engine_3_cylinder");
+	
+val incomplete_engine_6_cylinder = <factory:item>.typed<Basic>()
+    .tab(deceasedTab)
+	.durability(18)
+    .rarity(<constant:minecraft:item/rarity:common>)
+    .build("incomplete_engine_6_cylinder");
+
+val incomplete_engine_truck = <factory:item>.typed<Basic>()
+    .tab(deceasedTab)
+	.durability(18)
+    .rarity(<constant:minecraft:item/rarity:common>)
+    .build("incomplete_engine_truck");
+
+val incomplete_wheel = <factory:item>.typed<Basic>()
+    .tab(deceasedTab)
+	.durability(9)
+    .rarity(<constant:minecraft:item/rarity:common>)
+    .build("incomplete_wheel");
+
+val incomplete_big_wheel = <factory:item>.typed<Basic>()
+    .tab(deceasedTab)
+	.durability(9)
+    .rarity(<constant:minecraft:item/rarity:common>)
+    .build("incomplete_big_wheel");
+
+val incomplete_small_tank = <factory:item>.typed<Basic>()
+    .tab(deceasedTab)
+	.durability(3)
+    .rarity(<constant:minecraft:item/rarity:common>)
+    .build("incomplete_small_tank");
+
+val incomplete_medium_tank = <factory:item>.typed<Basic>()
+    .tab(deceasedTab)
+	.durability(4)
+    .rarity(<constant:minecraft:item/rarity:common>)
+    .build("incomplete_medium_tank");
+	
+val incomplete_large_tank = <factory:item>.typed<Basic>()
+    .tab(deceasedTab)
+	.durability(4)
+    .rarity(<constant:minecraft:item/rarity:common>)
+    .build("incomplete_large_tank");
