@@ -2,23 +2,22 @@ import mods.jei.JEI;
 import crafttweaker.api.recipe.CraftingTableRecipeManager;
 import crafttweaker.api.item.IItemStack;
 
-/*
+
 // SequencedAssemblyManager.addRecipe(builder as SequencedAssemblyRecipeBuilder) as void
-<recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("seq_blast_brick")
-                                                      .transitionTo(<item:create:incomplete_tracks>)
-                                                      .require(<item:create:andesite_alloy>)
-                                                      .loops(3)
-                                                      .addOutput(<item:create:large_cogwheel> * 6, 32)
-                                                      .addOutput(<item:create:andesite_alloy>, 2)
-                                                      .addOutput(<item:minecraft:andesite>, 1)
-                                                      .addOutput(<item:create:cogwheel>, 1)
-                                                      .addOutput(<item:minecraft:stick>, 1)
-                                                      .addOutput(<item:minecraft:iron_nugget>, 1)
-                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:minecraft:planks>))
-                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:minecraft:wooden_buttons>))
-                                                      .addStep<mods.createtweaker.CuttingRecipe>((rb) => rb.duration(50))
-                                                      .addStep<mods.createtweaker.FillingRecipe>((rb) => rb.require(<fluid:minecraft:water> * 50)));
-*/
+//    <recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("seq_blast_brick")
+//                                                      .transitionTo(<item:create:incomplete_tracks>)
+//                                                      .require(<item:create:andesite_alloy>)
+//                                                      .loops(3)
+//                                                      .addOutput(<item:create:large_cogwheel> * 6, 32)
+//                                                      .addOutput(<item:create:andesite_alloy>, 2)
+//                                                      .addOutput(<item:minecraft:andesite>, 1)
+//                                                      .addOutput(<item:create:cogwheel>, 1)
+//                                                      .addOutput(<item:minecraft:stick>, 1)
+//                                                      .addOutput(<item:minecraft:iron_nugget>, 1)
+//                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:minecraft:planks>))
+//                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:minecraft:wooden_buttons>))
+//                                                      .addStep<mods.createtweaker.CuttingRecipe>((rb) => rb.duration(50))
+//                                                      .addStep<mods.createtweaker.FillingRecipe>((rb) => rb.require(<fluid:minecraft:water> * 50)));
 
 //Scorched Guns
 //Powder and ball
@@ -33,7 +32,7 @@ craftingTable.addShapeless("Simple Bullet", <item:scorchedguns:simple_bullet>,
 //Shotbolt
 craftingTable.remove(<item:scorchedguns:shotbolt>);
 craftingTable.addShapeless("Shotbolt", <item:scorchedguns:shotbolt>,
-    [<item:minecraft:gunpowder>, <item:minecraft:arrows>]);
+    [<item:minecraft:gunpowder>, <item:minecraft:arrow>]);
 
 //Volatile Scrap
 craftingTable.remove(<item:scorchedguns:volatile_scrap>);
@@ -48,10 +47,21 @@ craftingTable.addShapeless("Encased Fire", <item:scorchedguns:encased_fire>,
                                                       .transitionTo(<item:contenttweaker:incomplete_bullet>)
                                                       .require(<item:minecraft:blaze_powder>)
                                                       .loops(1)
-                                                      .addOutput(<item:scorchedguns:encased_fire>, 2)
-                                                      .addStep<mods.createtweaker.FillingRecipe>((rb) => rb.require(<fluid:minecraft:lava> * 50)));
+                                                      .addOutput(<item:scorchedguns:encased_fire> * 2, 1)
+                                                      .addStep<mods.createtweaker.FillingRecipe>((rb) => rb.require(<fluid:minecraft:lava> * 50))
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:plates/iron>))
 													  );
+
+/*
+<recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("stun_grenade")
+                                                      .transitionTo(<item:contenttweaker:incomplete_bullet>)
+                                                      .require(<tag:items:forge:plates/plastic>)
+                                                      .loops(2)
+                                                      .addOutput(<item:cgm:stun_grenade> * 2, 1)
+                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:nuggets/iron>))
+                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:minecraft:blaze_powder>))
+													  );
+*/
 
 //Rivet
 craftingTable.remove(<item:scorchedguns:rivet>);
@@ -63,7 +73,7 @@ craftingTable.addShapeless("Rivet", <item:scorchedguns:rivet> * 2,
 //Flechette
 craftingTable.remove(<item:scorchedguns:flechette>);
 craftingTable.addShapeless("Flechette", <item:scorchedguns:flechette> * 2,
-    [<tag:items:forge:nuggets/iron>, <tag:items:forge:nuggets/iron>, <tag:items:forge:nuggets/iron>])
+    [<tag:items:forge:nuggets/iron>, <tag:items:forge:nuggets/iron>, <tag:items:forge:nuggets/iron>]);
 //nugget nugget cut
 
 //Flechette Round
@@ -101,17 +111,17 @@ craftingTable.addShapeless("Heavy Bullet", <item:scorchedguns:heavy_bullet>,
 //Pig Round
 <recipetype:cgm:workbench>.remove(<item:scorchedguns:pig_round>);
 craftingTable.addShapeless("Pig Round", <item:scorchedguns:pig_round>,
-    [<item:scorchedguns:hell_gunpowder>, <item:mineraft:blaze_powder>, <tag:items:forge:nuggets/gold>]);
+    [<item:scorchedguns:hell_gunpowder>, <item:minecraft:blaze_powder>, <tag:items:forge:nuggets/gold>]);
 
 //Heavy Pig Round
 <recipetype:cgm:workbench>.remove(<item:scorchedguns:heavy_pig_round>);
 craftingTable.addShapeless("Heavy Pig Round", <item:scorchedguns:heavy_pig_round>,
-    [<item:scorchedguns:hell_gunpowder>, <item:mineraft:blaze_powder>, <tag:items:forge:nuggets/gold>, <item:scorchedguns:pure_gunpowder>]);
+    [<item:scorchedguns:hell_gunpowder>, <item:minecraft:blaze_powder>, <tag:items:forge:nuggets/gold>, <item:scorchedguns:pure_gunpowder>]);
 
 //Quartz Shell
 <recipetype:cgm:workbench>.remove(<item:scorchedguns:quartz_shell>);
 craftingTable.addShapeless("Quartz Shell", <item:scorchedguns:quartz_shell>,
-    [<item:scorchedguns:hell_gunpowder>, <item:mineraft:quartz>, <tag:items:forge:nuggets/gold>]);
+    [<item:scorchedguns:hell_gunpowder>, <item:minecraft:quartz>, <tag:items:forge:nuggets/gold>]);
 
 //Osborne Slug
 <recipetype:cgm:workbench>.remove(<item:scorchedguns:osborne_slug>);
@@ -157,7 +167,7 @@ craftingTable.addShapeless("5.56x45 NATO", <item:moguns:556x45>,
 //Garbage
 <recipetype:cgm:workbench>.remove(<item:moguns:garbage>);
 craftingTable.addShapeless("Garbage", <item:moguns:garbage>,
-    [<item:minecraft:rotten_flesh>, <item:minecraft:poisonous_potato>, <item:spoiled:foods>, <item:minecraft:gunpowder>]);
+    [<item:minecraft:rotten_flesh>, <item:minecraft:poisonous_potato>, <tag:items:spoiled:foods>, <item:minecraft:gunpowder>]);
 
 //9x39mm
 <recipetype:cgm:workbench>.remove(<item:moguns:9x39>);

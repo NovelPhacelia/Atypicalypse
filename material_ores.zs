@@ -17,7 +17,7 @@ import crafttweaker.api.item.IItemStack;
 <tag:items:forge:corundum/block>.add(<item:quark:yellow_corundum>);
 <tag:items:forge:corundum/block>.add(<item:quark:waxed_yellow_corundum>);
 <tag:items:forge:corundum/cluster>.add(<item:quark:yellow_corundum_cluster>);
-nugget/
+
 <tag:items:forge:corundum/block>.add(<item:quark:violet_corundum>);
 <tag:items:forge:corundum/block>.add(<item:quark:waxed_violet_corundum>);
 <tag:items:forge:corundum/cluster>.add(<item:quark:violet_corundum_cluster>);

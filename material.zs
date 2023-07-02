@@ -7,61 +7,61 @@ import crafttweaker.api.misc.Composter;
 
 //Resources
 //Iron
-<tag:items:forge:storage_blocks/iron>.add(<item:minecraft:iron_block>)
-<tag:items:forge:ingots/iron>.add(<item:minecraft:iron_ingot>)
-<tag:items:forge:plates/iron>.add(<item:create:iron_sheet>)
-<tag:items:forge:plates/iron>.add(<item:immersiveengineering:plate_iron>)
-<tag:items:forge:nuggets/iron>.add(<item:minecraft:iron_nugget>)
+<tag:items:forge:storage_blocks/iron>.add(<item:minecraft:iron_block>);
+<tag:items:forge:ingots/iron>.add(<item:minecraft:iron_ingot>);
+<tag:items:forge:plates/iron>.add(<item:create:iron_sheet>);
+<tag:items:forge:plates/iron>.add(<item:immersiveengineering:plate_iron>);
+<tag:items:forge:nuggets/iron>.add(<item:minecraft:iron_nugget>);
 
 //Copper
-<tag:items:forge:storage_blocks/copper>.add(<item:minecraft:copper_block>)
-<tag:items:forge:ingots/copper>.add(<item:minecraft:copper_ingot>)
-<tag:items:forge:plates/copper>.add(<item:create:copper_sheet>)
-<tag:items:forge:plates/copper>.add(<item:immersiveengineering:plate_copper>)
-<tag:items:forge:nuggets/copper>.add(<item:create:copper_nugget>)
-<tag:items:forge:nuggets/copper>.add(<item:immersiveengineering:nugget_copper>)
+<tag:items:forge:storage_blocks/copper>.add(<item:minecraft:copper_block>);
+<tag:items:forge:ingots/copper>.add(<item:minecraft:copper_ingot>);
+<tag:items:forge:plates/copper>.add(<item:create:copper_sheet>);
+<tag:items:forge:plates/copper>.add(<item:immersiveengineering:plate_copper>);
+<tag:items:forge:nuggets/copper>.add(<item:create:copper_nugget>);
+<tag:items:forge:nuggets/copper>.add(<item:immersiveengineering:nugget_copper>);
 
 //Gold
-<tag:items:forge:storage_blocks/gold>.add(<item:minecraft:gold_block>)
-<tag:items:forge:ingots/gold>.add(<item:minecraft:gold_ingot>)
-<tag:items:forge:plates/gold>.add(<item:create:golden_sheet>)
-<tag:items:forge:plates/gold>.add(<item:immersiveengineering:plate_gold>)
-<tag:items:forge:nuggets/gold>.add(<item:minecraft:gold_nugget>)
+<tag:items:forge:storage_blocks/gold>.add(<item:minecraft:gold_block>);
+<tag:items:forge:ingots/gold>.add(<item:minecraft:gold_ingot>);
+<tag:items:forge:plates/gold>.add(<item:create:golden_sheet>);
+<tag:items:forge:plates/gold>.add(<item:immersiveengineering:plate_gold>);
+<tag:items:forge:nuggets/gold>.add(<item:minecraft:gold_nugget>);
 
 //Zinc
-<tag:items:forge:storage_blocks/zinc>.add(<item:create:zinc_block>)
-<tag:items:forge:ingots/zinc>.add(<item:create:zinc_ingot>)
-<tag:items:forge:plates/zinc>.add(<item:createaddition:zinc_sheet>)
-<tag:items:forge:plates/zinc>.add(<item:createdeco:zinc_sheet>)
-<tag:items:forge:nuggets/zinc>.add(<item:create:zinc_nugget>)
+<tag:items:forge:storage_blocks/zinc>.add(<item:create:zinc_block>);
+<tag:items:forge:ingots/zinc>.add(<item:create:zinc_ingot>);
+<tag:items:forge:plates/zinc>.add(<item:createaddition:zinc_sheet>);
+<tag:items:forge:plates/zinc>.add(<item:createdeco:zinc_sheet>);
+<tag:items:forge:nuggets/zinc>.add(<item:create:zinc_nugget>);
 
 //Aluminium
-<tag:items:forge:storage_blocks/aluminium>.add(<item:immersiveengineering:storage_aluminium>)
-<tag:items:forge:storage_blocks/aluminium>.add(<item:createindustry:aluminium_block>)
-<tag:items:forge:ingots/aluminium>.add(<item:createindustry:aluminium_ingot>)
-<tag:items:forge:ingots/aluminium>.add(<item:immersiveengineering:ingot_aluminum>)
-<tag:items:forge:plates/aluminium>.add(<item:immersiveengineering:plate_aluminum>)
-<tag:items:forge:nuggets/aluminium>.add(<item:immersiveengineering:nugget_aluminum>)
+<tag:items:forge:storage_blocks/aluminium>.add(<item:immersiveengineering:storage_aluminum>);
+<tag:items:forge:storage_blocks/aluminium>.add(<item:createindustry:aluminum_block>);
+<tag:items:forge:ingots/aluminium>.add(<item:createindustry:aluminum_ingot>);
+<tag:items:forge:ingots/aluminium>.add(<item:immersiveengineering:ingot_aluminum>);
+<tag:items:forge:plates/aluminium>.add(<item:immersiveengineering:plate_aluminum>);
+<tag:items:forge:nuggets/aluminium>.add(<item:immersiveengineering:nugget_aluminum>);
 
 //Steel
-<tag:items:forge:storage_blocks/steel>.add(<item:immersiveengineering:storage_steel>)
-<tag:items:forge:storage_blocks/steel>.add(<item:alloyed:steel_block>)
-<tag:items:forge:storage_blocks/steel>.add(<item:createindustry:steel_block>)
-<tag:items:forge:ingots/steel>.add(<item:createindustry:steel_ingot>)
-<tag:items:forge:ingots/steel>.add(<item:alloyed:steel_ingot>)
-<tag:items:forge:ingots/steel>.add(<item:immersiveengineering:ingot_steel>)
-<tag:items:forge:plates/steel>.add(<item:alloyed:steel_sheet>)
-<tag:items:forge:plates/steel>.add(<item:immersiveengineering:plate_steel>)
-<tag:items:forge:nuggets/steel>.add(<item:alloyed:steel_nugget>)
-<tag:items:forge:nuggets/steel>.add(<item:immersiveengineering:nugget_steel>)
+<tag:items:forge:storage_blocks/steel>.add(<item:immersiveengineering:storage_steel>);
+<tag:items:forge:storage_blocks/steel>.add(<item:alloyed:steel_block>);
+<tag:items:forge:storage_blocks/steel>.add(<item:createindustry:steel_block>);
+<tag:items:forge:ingots/steel>.add(<item:createindustry:steel_ingot>);
+<tag:items:forge:ingots/steel>.add(<item:alloyed:steel_ingot>);
+<tag:items:forge:ingots/steel>.add(<item:immersiveengineering:ingot_steel>);
+<tag:items:forge:plates/steel>.add(<item:alloyed:steel_sheet>);
+<tag:items:forge:plates/steel>.add(<item:immersiveengineering:plate_steel>);
+<tag:items:forge:nuggets/steel>.add(<item:alloyed:steel_nugget>);
+<tag:items:forge:nuggets/steel>.add(<item:immersiveengineering:nugget_steel>);
 
 //Cast Iron
-<tag:items:forge:storage_blocks/cast_iron>.add(<item:createdeco:cast_iron_block>)
-<tag:items:forge:storage_blocks/cast_iron>.add(<item:createindustry:cast_iron_block>)
-<tag:items:forge:ingots/cast_iron>.add(<item:createdeco:cast_iron_ingot>)
-<tag:items:forge:ingots/cast_iron>.add(<item:createindustry:cast_iron_ingot>)
-<tag:items:forge:plates/cast_iron>.add(<item:createdeco:cast_iron_sheet>)
-<tag:items:forge:nuggets/cast_iron>.add(<item:createdeco:cast_iron_nugget>)
+<tag:items:forge:storage_blocks/cast_iron>.add(<item:createdeco:cast_iron_block>);
+<tag:items:forge:storage_blocks/cast_iron>.add(<item:createindustry:cast_iron_block>);
+<tag:items:forge:ingots/cast_iron>.add(<item:createdeco:cast_iron_ingot>);
+<tag:items:forge:ingots/cast_iron>.add(<item:createindustry:cast_iron_ingot>);
+<tag:items:forge:plates/cast_iron>.add(<item:createdeco:cast_iron_sheet>);
+<tag:items:forge:nuggets/cast_iron>.add(<item:createdeco:cast_iron_nugget>);
 
 
 // High Carbon Steel Alloy
