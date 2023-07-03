@@ -35,6 +35,12 @@ import crafttweaker.api.misc.Composter;
 <tag:items:forge:plates/zinc>.add(<item:createdeco:zinc_sheet>);
 <tag:items:forge:nuggets/zinc>.add(<item:create:zinc_nugget>);
 
+//Brass
+<tag:items:forge:storage_blocks/brass>.add(<item:create:brass_block>);
+<tag:items:forge:ingots/brass>.add(<item:create:brass_ingot>);
+<tag:items:forge:plates/brass>.add(<item:create:brass_sheet>);
+<tag:items:forge:nuggets/brass>.add(<item:create:brass_nugget>);
+
 //Aluminium
 <tag:items:forge:storage_blocks/aluminium>.add(<item:immersiveengineering:storage_aluminum>);
 <tag:items:forge:storage_blocks/aluminium>.add(<item:createindustry:aluminum_block>);
@@ -63,6 +69,21 @@ import crafttweaker.api.misc.Composter;
 <tag:items:forge:plates/cast_iron>.add(<item:createdeco:cast_iron_sheet>);
 <tag:items:forge:nuggets/cast_iron>.add(<item:createdeco:cast_iron_nugget>);
 
+//Blaze Rod
+<recipetype:create:compacting>.addRecipe("blaze_rod", <constant:create:heat_condition:none>, [<item:minecraft:blaze_rod> * 1], [<item:minecraft:blaze_powder> * 3], [<fluid:minecraft:lava> * 250], 200);
+
+//Blaze Powder
+<recipetype:create:mixing>.addRecipe("blaze_powder", <constant:create:heat_condition:none>, [<item:minecraft:blaze_powder> * 1], [<tag:items:forge:nuggets/brass> * 1], [<tag:items:forge:nuggets/zinc> * 1], [<tag:items:forge:nuggets/gold> * 1], [<fluid:minecraft:lava> * 500], 200);
+
+//Hell Gunpowder
+craftingTable.remove(<item:scorchedguns:hell_gunpowder>);
+<recipetype:create:haunting>.addRecipe("hell_gunpowder", [<item:scorchedguns:hell_gunpowder>], <item:minecraft:blaze_powder>, 200);
+
+//Nitro Dust
+craftingTable.remove(<item:scorchedguns:nitro_dust>);
+craftingTable.addShapeless("ec_round", <item:scorchedguns:ec_round>,
+    [<item:scorchedguns:flechette>, <item:scorchedguns:pure_gunpowder>]);
+<recipetype:create:mixing>.addRecipe("nitro_dust", <constant:create:heat_condition:none>, [<item:scorchedguns:nitro_dust> * 2], [<item:minecraft:blaze_powder> * 1], [<item:scorchedguns:hell_gunpowder> * 1], [<item:scorchedguns:pure_gunpowder> * 1], [<fluid:minecraft:lava> * 250], 200);
 
 // High Carbon Steel Alloy
 //<recipetype:immersiveengineering:arc_furnace>.addRecipe("ie_arcfurnace_high_carbon_steel_alloy", <tag:items:forge:ingots/steel>, [<item:contenttweaker:polyethylene>], 600, 102400, [<item:contenttweaker:high_carbon_steel_alloy>], <item:minecraft:air> );
@@ -78,7 +99,7 @@ import crafttweaker.api.misc.Composter;
 <recipetype:create:mixing>.addRecipe("poison_potato_healing", <constant:create:heat_condition:heated>, [<fluid:create:potion>.withTag({Potion:"minecraft:harming"}) * 1000], [<item:minecraft:poisonous_potato>], [<fluid:create:potion>.withTag({Potion:"minecraft:healing"}) * 1000], 100);
 
 // Composter
-composter.setValue(<item:minecraft:rotten_flesh>, 0.5);
+composter.setValue(<item:minecraft:rotten_flesh>, 1);
 
 // Wool to string
 craftingTable.addShapeless("string", <item:minecraft:string> * 2, [<tag:items:minecraft:wool>]);
@@ -143,7 +164,7 @@ craftingTable.addShapeless("ie_iron_wire", <item:createaddition:iron_wire>,
 
 // Electron Tube (Vacuum Tube)
 craftingTable.removeByName("create:crafting/materials/electron_tube");
-JEI.hideIngredient(<item:create:electron_tube>);
+
 
 <recipetype:immersiveengineering:blueprint>.removeByName("immersiveengineering:blueprint/component_electronic");
 <recipetype:immersiveengineering:blueprint>.addRecipe("component_electronic", "components", [<item:immersiveengineering:electron_tube>, <tag:items:forge:wires/electrum>, <tag:items:forge:treated_wood_slab>, <tag:items:forge:dusts/redstone>], <item:immersiveengineering:component_electronic>);
@@ -151,13 +172,13 @@ JEI.hideIngredient(<item:create:electron_tube>);
 <recipetype:immersiveengineering:blueprint>.removeByName("immersiveengineering:blueprint/electron_tube");
 <recipetype:immersiveengineering:blueprint>.addRecipe("electron_tube", "components", [<tag:items:forge:glass>, <item:create:polished_rose_quartz>, <tag:items:forge:plates/nickel>, <tag:items:forge:wires/electrum>], <item:immersiveengineering:electron_tube> * 3);
 
-<recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("vacuum_tube")
+<recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("electron_tube")
                                                       .transitionTo(<item:contenttweaker:incomplete_electron_tube>)
                                                       .require(<item:create:polished_rose_quartz>)
                                                       .loops(1)
-                                                      .addOutput(<item:immersiveengineering:electron_tube> * 3, 1)
+                                                      .addOutput(<item:create:electron_tube> * 3, 1)
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:plates/nickel>))
-                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:wires/electrum>))
+                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:nuggets/copper>))
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:glass>))
 													  );
 													  
@@ -169,7 +190,7 @@ JEI.hideIngredient(<item:create:electron_tube>);
                                                       .loops(1)
                                                       .addOutput(<item:immersiveengineering:component_electronic>, 1)
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:wires/electrum>))
-                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:immersiveengineering:electron_tube>))
+                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:create:electron_tube>))
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:dusts/redstone>))
 													  );
 
@@ -179,8 +200,8 @@ JEI.hideIngredient(<item:create:electron_tube>);
                                                       .loops(1)
                                                       .addOutput(<item:immersiveengineering:component_electronic_adv>, 1)
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<tag:items:forge:wires/aluminum>))
-                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:immersiveengineering:electron_tube>))
-                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:immersiveengineering:electron_tube>))
+                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:create:electron_tube>))
+                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:create:electron_tube>))
 													  );
 
 Replacer.forMods(["create", "createaddition"]).suppressWarnings().replace(<item:create:electron_tube>, <item:immersiveengineering:component_electronic>).execute();
