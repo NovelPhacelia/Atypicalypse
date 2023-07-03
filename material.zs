@@ -81,8 +81,6 @@ craftingTable.remove(<item:scorchedguns:hell_gunpowder>);
 
 //Nitro Dust
 craftingTable.remove(<item:scorchedguns:nitro_dust>);
-craftingTable.addShapeless("ec_round", <item:scorchedguns:ec_round>,
-    [<item:scorchedguns:flechette>, <item:scorchedguns:pure_gunpowder>]);
 <recipetype:create:mixing>.addRecipe("nitro_dust", <constant:create:heat_condition:none>, [<item:scorchedguns:nitro_dust> * 2], [<item:minecraft:blaze_powder> * 1], [<item:scorchedguns:hell_gunpowder> * 1], [<item:scorchedguns:pure_gunpowder> * 1], [<fluid:minecraft:lava> * 250], 200);
 
 // High Carbon Steel Alloy
